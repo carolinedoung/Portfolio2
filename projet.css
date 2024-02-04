@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Orbitron&family=Oswald:wght@700&family=Poppins&display=swap');
+
+html {
+    color: white;
+}
+/* .dataviz {
+    height: 100vh;
+    position: relative;
+    padding-top: 70px;
+    color: white;
+} */
+
+/* body {
+    font-family: 'Poppins', sans-serif;  
+    background-image: url(./images/gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
+.link-home {
+    margin: 30px;
+    color: white;
+    /* margin-top: 50px; */
+}
+
+h1 {
+    /* top: 0; */
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 5%;
+    /* margin-top: 5%; */
+}
+
+/* .gallery-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2em;
+
+} */
+
+#container {
+    border: 2px red;
+    height: 100vh;
+    position: relative;
+    top: 70px;
+    /* display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between; */
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    /* margin-bottom: 80px; */
+}
+
+.content-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3em;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.text-project {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* .img-project {
+    height: 50vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    object-fit: contain;
+} */
+
+/* .responsive-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+.img-shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.link-project a {
+    margin-right: 20px;
+    color: white;
+}
+
+h3.title-tool {
+    font-size: 1.6em;
+}
+
+
+h3.mb {
+    font-size: 1.6em;
+    
+}
+
+/* .name {
+    position: relative;
+    top: 20px;
+} */
+
+.tools div {
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 3em;
+ 
+}
+/* .tools img {
+    width: 5%;
+    height: 10%;
+} */
+
+.tools p {
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 12);
+    border: solid 2px #ffffff;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3em;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1em;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.img-gallery {
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (max-width: 900px) {
+    .content-project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .content-project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+    }
+
+    .container-tools {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+    @media screen and (max-width: 750px) {
+    .content-project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+    }
+
+    .container-tools {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    
+    .img-shadow {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+}

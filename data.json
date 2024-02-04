@@ -1,0 +1,140 @@
+{
+
+
+    "project1" : {
+    "title" : "Projet à venir",
+    "links" : {
+        "page" :"https://www.youtube.com/",
+        "github" : ""},
+    "year" : "10/2023 - 12/2023",
+    "description" : "Le projet à venir est mon CV vidéo. Il est encore en cours de conception. Il sera très prochainement disponible sur mon portfolio",
+    "tools": "",
+    "image": "./images/cvvideo.jpg",    
+    "alt":"",
+    "gallery" : {
+        "img1" : "./images/crystalviz.jpg", 
+        "img2" : "./images/crystalviz.jpg", 
+        "img3" : "./images/crystalviz.jpg"}
+    },
+
+    "project2" : {
+    "title" : "Portrait chinois",
+    "links" : {
+            "page" :"https://carolinedoung.github.io/SAE105/",
+            "github" : "https://github.com/carolinedoung/SAE105"},
+    "year" : "11/2022 - 01/2023",
+    "description" : "Dans le cadre de la première année de BUT MMI, nous avons eu un portrait chinois à réaliser. Nous devions choisir 7 analogies et créer un formulaire permettant de créer une analogie supplémentaire. Ce projet étant le premier projet web que j'ai réalisé, il m'a permis d'exploiter concrètement les premiers cours de développement web et d'intégration du premier semestre.",
+    "image": "./images/portraitchinois4.png",
+    "alt":"",
+    "tools": {
+        "tool1" : "HTML",
+        "tool2" : "CSS",
+        "tool3" : "JavaScript",
+        "tool4" : "O2switch"},
+    "member": {
+        "mb1" : "Caroline DOUNG"
+        },
+    "gallery" : {
+        "img1" : "./images/portraitchinois-g1.jpg", 
+        "img2" : "./images/portraitchinois-g2.jpg", 
+        "img3" : "./images/portraitchinois-g3.jpg"}
+    },
+
+    "project3" : {
+        "title" : "Projet associatif",
+        "links" : {
+            "page" :"https://maraudes.merouane.butmmi.o2switch.site/",
+            "github" : ""},
+    "year" : "02/2023 - 06/2023",
+    "description" : "Dans le cadre d'une SAE en première année de BUT MMI, l'un des projets à réaliser était d'améliorer la communication d'une association déjà existente ou fictive. On a décide de partir sur une association existente qui se nomme Maraudes. Pour ce faire nous devions réliser une campagne complète. Nous avons créé un WordPress, des affiches et un motion design pour l'association. Durant cette SAE, je me suis principalement occupée de la communication, du logo et de la rédaction de nos supports.",
+    "image": "./images/maraudes.jpg",
+    "alt":"",
+    "tools": {
+        "tool1" : "WordPress",
+        "tool2" : "Photoshop",
+        "tool3" : "Figma"},
+    "member": {
+        "mb1" : "Caroline DOUNG",
+        "mb2" : "Lou-Anne DUBILLE",
+        "mb3" : "Pauline GAZENGEL",
+        "mb4" : "Idriss MEROUANE",
+        "mb5" : ""},
+    "gallery" : {
+        "img1" : "./images/maraudes-g1.png", 
+        "img2" : "./images/maraudes-g2.jpg", 
+        "img3" : "./images/maraudes-g3.jpg"}
+    }, 
+
+    "project4" : {
+        "title" : "Site de réservation",
+        "links" : {
+            "page" :"https://resaweb.doung.butmmi.o2switch.site/",
+            "github" : "https://github.com/carolinedoung/Resaweb"},
+   "year" : "02/2023 - 06/2023",
+    "description" : "Le but de ce projet était de créer un site de réservation au choix. J'ai choisi de faire un site de réservation dans le monde de l'animé où l'on souhaite se rendre. J'ai trouvé ce proejt intéressant car il m'a permis d'utiliser les cours de PHP et manipuler les bases de données. Bien que ce projet soit terminée, je pense que je pourrai l'améliorer. ",
+    "tools": {
+        "tool1" : "HTML",
+        "tool2" : "CSS",
+        "tool3" : "PHP",
+        "tool4" : "Javascript"},
+    "member": {
+        "mb1" : "Caroline DOUNG",
+        "mb2" : "",
+        "mb3" : ""},
+    "image": "./images/isekai.jpg",
+    "alt":"",
+    "gallery" : {
+        "img1" : "./images/isekai-g1.jpg", 
+        "img2" : "./images/isekai-g2.jpg", 
+        "img3" : "./images/isekai-g3.png"}
+    }, 
+
+    "project5" : {
+        "title" : "Campagne de communication",
+        "links" : {
+            "page" :"https://drive.google.com/drive/u/0/folders/1BKIc7AeRxm45MjlfGBtg09Q2J6XEzf0H",
+            "github" : ""},
+    "year" : "10/2023 - 11/2023",
+    "description" : "Dans le cadre du troisième semestre en BUT MMI, nous devions réalisé une campagne de communication d'une ville dans son ensemble ou d'un évènement de la ville. Ce projet était à réaliser en groupe de 2 ou 3. Nous avons choisi comme thème la fête doraine d'Alençon, ville dont je suis originaire. Nous avons réalisé des bannières web, des affiches, des mock-ups et des maquettes de site en fonction de la des écrans.",
+    "tools": {
+        "tool1" : "Figma",
+        "tool2" : "Photoshop",
+        "tool3" : "",
+        "tool4" : ""},
+    "member": {
+        "mb1" : "Caroline DOUNG",
+        "mb2" : "Lou-Anne DUBILLE",
+        "mb3" : "Pauline GAZENGEL"},
+    "image": "./images/alencon.jpg",
+    "alt":"",
+    "gallery" : {
+        "img1" : "./images/alencon-g1.jpg", 
+        "img2" : "./images/alencon-g2.jpg", 
+        "img3" : "./images/alencon-g3.jpg"}
+    },
+
+    "project6" : {
+        "title" : "Crystal'Viz",
+        "links" : {
+            "page" :"https://ymidey.github.io/Crystal-Viz/",
+            "github" : "https://github.com/ymidey/Crystal-Viz"},
+    "year" : "09/2023 - 11/2023",
+    "description" : "Dans le cadre de la deuxième année du BUT MMI, nous avons travaillé sur la visualisation de données. Le but était de produire un site web permettant de visualiser les données que nous souhaitions en groupe de 2 ou 3 personnes. Nous avons fait le choix de traiter les données du festival d’Annecy en nous centrant sur les prix du cristal du long métrage obtenus depuis le début de sa création par les différents pays participants à ce festival. Durant ce projet, nous étions 3, j’étais chargée du développement web avec un de mes camarades. Nous avons appliqué nos cours sur la libraire D3 js.",
+    "tools": {
+        "tool1" : "HTML",
+        "tool2" : "CSS",
+        "tool3" : "D3.js",
+        "tool4" : "Green Sock"},
+    "member": {
+        "mb1" : "Caroline DOUNG",
+        "mb2" : "Yannick MIDEY",
+        "mb3" : "Antoine ATTALI"},
+    "image": "./images/crystalviz.jpg",
+    "alt":"",
+    "gallery" : {
+        "img1" : "./images/crystalviz-g1.jpg", 
+        "img2" : "./images/crystalviz-g2.jpg", 
+        "img3" : "./images/crystalviz-g3.jpg"}
+    }
+}
+
