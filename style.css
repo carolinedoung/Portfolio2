@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Orbitron&family=Oswald:wght@700&family=Poppins&display=swap');
 
-
+@import url('./Fonts/css/satoshi.css');
 *,
 *::before,
 *::after {
@@ -28,7 +28,7 @@ body {
     /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
-    font-family: "changa";
+    font-family: "satoshi";
     list-style: none;
     text-decoration: none; 
 }
@@ -64,7 +64,7 @@ body {
 .logo {
    font-weight: bold;
    font-size: 1em;
-   font-family: "changa";
+   font-family: "satoshi";
    margin: 0 25px;
 
 }
@@ -164,7 +164,7 @@ h2 {
 li {
     list-style-type: none;
     color: white;
-    font-family: "changa";
+    font-family: "satoshi";
 }
 
 .accueil-container {
@@ -449,14 +449,32 @@ li {
 }
 
 /* skills */
-
-
-/* contact */
-
 #skills {
     height: 100vh;
 }
 
+.skill-title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#skills-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+/* contact */
 #contact {
     height: 50vh;
 }
