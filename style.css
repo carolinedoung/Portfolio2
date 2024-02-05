@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Orbitron&family=Oswald:wght@700&family=Poppins&display=swap');
 
-@import url('./Fonts./css/.satoshi.css');
+@import url('./Fonts/css/satoshi.css');
 *,
 *::before,
 *::after {
@@ -462,11 +462,15 @@ li {
 #skills {
     height: 100vh;
     border: #df2b91 solid 1px;
+    margin-top: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }
 
 .skill-title {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 1.5em;
 }
 
@@ -489,8 +493,10 @@ li {
     align-items: center; */
     display:flex; 
     flex-direction:row; 
-    margin-top: auto;
+    margin-top: 100px;
     margin-bottom: auto;
+    justify-content: center;
+    
 }
 /* contact */
 #contact {
