@@ -151,6 +151,7 @@ h1 {
 h2 {
     color: white;
     font-family: "Orbitron";
+    margin-left: 50px;
 }
 
 
@@ -202,12 +203,16 @@ li {
 }
 
 .title-about {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    text-align:center;
-    margin-bottom: 70px;
-    
+    margin-bottom: 50px;    
+}
+
+#title-about {
+    color: white;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 0;
 }
 
 #about {
@@ -216,7 +221,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-    /* border-top: 1px solid #2F2BDF; */
+    border: 1px solid #df2b91;
 }
 
 .about-content {
@@ -245,6 +250,11 @@ li {
     width: 100%;
 }
 
+.img-about {
+    width: 50vh;
+    /* object-fit: cover;
+    object-position: center; */
+}
 /* responsive about + h1 */
 
 @media screen and (max-width: 1050px) {
@@ -451,11 +461,13 @@ li {
 /* skills */
 #skills {
     height: 100vh;
+    border: #df2b91 solid 1px;
 }
 
 .skill-title {
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
 }
 
 #skills-content {
@@ -469,6 +481,7 @@ li {
 }
 
 #skills-grid {
+    font-size: 1.4em;
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
@@ -476,8 +489,8 @@ li {
     align-items: center; */
     display:flex; 
     flex-direction:row; 
-    /* align-items:center;
-    justify-content: center; */
+    margin-top: auto;
+    margin-bottom: auto;
 }
 /* contact */
 #contact {
