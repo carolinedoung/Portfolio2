@@ -475,9 +475,12 @@ li {
 .skill-title {
     color: white;
     margin-bottom: 50px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
+.list-skill {
+    font-size: 1.4em;
+}
 #skills-content {
     display: flex;
     flex-direction: column;
@@ -488,7 +491,7 @@ li {
 }
 
 #skills-flex {
-    font-size: 1.4em;
+    /* font-size: 1.4em; */
     display:flex; 
     flex-direction:row; 
     margin-top: 50px;
@@ -510,8 +513,35 @@ li {
         word-wrap:break-word;
     }
     .skill-title {
+        word-wrap:break-word;
         margin-bottom: 20px;
         font-size: 1.5em;
+    }
+     #skills-flex {
+        margin-left: 20px;
+        margin-right: 20px;
+     }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .section-title {
+        font-size: 2.9em;
+    }
+    h2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    #skills {
+        height: auto;
+    }
+    .skill-title {
+        margin-bottom: 20px;
+        font-size: 1.3em;
+    }
+    .list-skill {
+        font-size: 1em;
     }
     #skills-content {
         margin: 0px;
@@ -525,6 +555,7 @@ li {
         margin-left: auto;
         margin-right: auto;
     }
+    
 }
 
 /* contact */
