@@ -6,6 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Orbitron&family=Oswald:wght@700&family=Poppins&display=swap');
 
 @import url('./Fonts/css/satoshi.css');
+@font-face {
+    font-family: 'satoshi';
+    src: url('satoshi.woff2') format('woff2'),
+         url('satoshi.woff') format('woff'),
+         url('satoshi.ttf') format('truetype');
+    font-style: normal;
+}
 *,
 *::before,
 *::after {
@@ -473,6 +480,7 @@ li {
 
 
 .skill-title {
+    font-weight: bold;
     color: white;
     margin-bottom: 50px;
     font-size: 2em;
