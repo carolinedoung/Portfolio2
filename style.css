@@ -199,6 +199,7 @@ li {
     color: white;
     font-size: 3em;
     margin-bottom: 20px;
+    /* padding-top: 50px; */
 
 }
 /* 
@@ -213,6 +214,7 @@ li {
     margin-bottom: 20px; */
     text-align: center;
     margin-left: 0;
+    padding-top: 0;
 }
 
 #about {
@@ -252,6 +254,7 @@ li {
 
 .img-about {
     width: 50vh;
+    border-radius: 5%;
     /* object-fit: cover;
     object-position: center; */
 }
@@ -461,7 +464,7 @@ li {
 /* skills */
 #skills {
     height: 100vh;
-    /* border: #df2b91 solid 1px; */
+    border: #df2b91 solid 1px;
     margin-top: auto;
     display: flex;
     flex-direction: column;
@@ -508,10 +511,15 @@ li {
     height: 50vh;
 }
 
-.footer {
+footer {
+    padding: 20px;
     background-color: #2F2BDF;
+
+}
+.footer {
     color: white;
     text-align: center;
+    font-size: 2em;
 }
 
 p.item {
