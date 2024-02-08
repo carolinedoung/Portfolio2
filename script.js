@@ -41,10 +41,13 @@ fetch('data.json')
         projectElement.addEventListener('click', function () {
             console.log(key);
             window.location.href = "projet.html?id=" + key;
+            
         });
 
         projectContainer.appendChild(projectElement);
         console.log(projectContainer)
     });
 });
-})
+});
+
+

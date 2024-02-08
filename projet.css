@@ -3,20 +3,6 @@
 html {
     color: white;
 }
-/* .dataviz {
-    height: 100vh;
-    position: relative;
-    padding-top: 70px;
-    color: white;
-} */
-
-/* body {
-    font-family: 'Poppins', sans-serif;  
-    background-image: url(./images/gradient.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-} */
 
 .link-home {
     margin: 45px;
@@ -31,14 +17,6 @@ h1 {
     margin-bottom: 5%;
     /* margin-top: 5%; */
 }
-
-/* .gallery-project {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 2em;
-
-} */
 
 #container {
     border: 2px red;
@@ -104,13 +82,13 @@ h3.mb {
     
 }
 
-/* .name {
-    position: relative;
-    top: 20px;
-} */
+.name {
+    margin-top: 10px;
+}
 
 .tools div {
     /* margin: 20px; */
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     column-gap: 3em;
@@ -267,3 +245,4 @@ h3.mb {
     }
 
 }
+
