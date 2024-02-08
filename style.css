@@ -408,6 +408,9 @@ li {
 /* projects responsive */
 
 @media screen and (max-width: 1200px) {
+    .project-title{
+        margin-bottom: 0px;
+    }
     .projects-container {
         grid-template-columns: repeat(2, minmax(350px, 1fr));
         padding: 40px;
@@ -469,6 +472,9 @@ li {
 }
 
 @media screen and (max-width: 430px) {
+    .projects-container {
+        padding: 20px 40px 40px 40px;
+    }
     .project-box {
         height: 25vh;
         width: 100%;
