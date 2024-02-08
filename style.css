@@ -6,13 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Orbitron&family=Oswald:wght@700&family=Poppins&display=swap');
 
 @import url('./Fonts/css/satoshi.css');
-/* @font-face {
-    font-family: 'satoshi';
-    src: url('satoshi.woff2') format('woff2'),
-         url('satoshi.woff') format('woff'),
-         url('satoshi.ttf') format('truetype');
-    font-style: normal;
-} */
+
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 *,
 *::before,
@@ -29,13 +23,7 @@ html {
 body {
     margin: 0; 
     padding: 0;
-    /* background-color: #DEF9FF; */
-    /* background-color: rgb(205, 218, 255); */
-    /* background-color: rgb(31, 31, 31); */
     background-color: rgb(12, 12, 12);
-    /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
     font-family: "satoshi";
     list-style: none;
     text-decoration: none; 
@@ -305,6 +293,14 @@ li {
 
 }
 
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 4em;
+        text-align: center;
+    }
+    
+}
+
 @media screen and (max-width: 700px) {
     .title-accueil {
         left: 0;
@@ -388,7 +384,7 @@ li {
 
 .projects-container {
     display: grid;
-    max-width: 1100px;
+    max-width: 1150px;
     margin: auto;
     column-gap: 3rem;
     row-gap: 3em;
@@ -397,55 +393,90 @@ li {
     margin-bottom: 20px;
 }
 
+.project-box {
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: all .3s;
+    &:hover {
+      box-shadow: 0px 10px 20px #2F2BDF;
+    }
+    cursor: pointer;
+}
+
+.img-text {
+    display: none;
+}
+
 /* projects responsive */
 
 @media screen and (max-width: 1200px) {
     .projects-container {
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
         padding: 40px;
         height: auto;  
     }
 
     .project-box {
         width: 100%;
-        height: 100%;
+        height: 50vh;
         background-position: cover;
     }
 }
-@media screen and (max-width: 900px) {
-    .projects-container {
-        grid-template-columns: repeat(2, minmax(350px, 1fr));
-        /* padding: 60px;   */
-        height: auto;
-    }
 
-    
+@media screen and (max-width: 1000px) {
     .project-box {
-        width: 100%;
-        height: 100%;
-        background-position: cover;
+        height: 40vh;
+    }
+    
+}
+@media screen and (max-width: 840px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        column-gap: 0rem;
+        row-gap: 1em;
+    }
+    .project-box {
+        height: 35vh;
+        width: 90%;
+        margin: auto;
     }
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
+    .project-box {
+        height: 30vh;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 650px) {
     .projects-container {
         grid-template-columns: 1fr;
         height: auto;
     }
-}
-
-@media screen and (max-width: 400px) {
-    .projects-container {
-        grid-template-columns: 1fr;
-        height: auto;
-    }
     
     .project-box {
-        width: 100%;
-        height: 100%;
-        background-position: cover;
+        height: 50vh;
+        width: 95%;
     }
+}
 
+@media screen and (max-width: 500px) {
+    .project-box {
+        height: 35vh;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .project-box {
+        height: 30vh;
+        width: 100%;
+    }
+    
 }
 .project img {
     width: 100%;
@@ -467,21 +498,6 @@ li {
         }
 } */
 
-.project-box {
-    height: 50vh;
-    /* max-width: 100%; */
-    border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    transition: all .3s;
-    &:hover {
-      box-shadow: 0px 10px 20px #2F2BDF;
-    }
-    cursor: pointer;
-}
-
-.img-text {
-    display: none;
-}
 
 /* skills */
 #skills {
