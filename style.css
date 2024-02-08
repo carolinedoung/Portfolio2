@@ -40,7 +40,7 @@ body {
     width: 100%;
     background-color: rgba(120, 120, 120, 0);
     backdrop-filter: blur(10px);
-    /* background-color: blue; */
+    background-color: blue;
         
 }
 
@@ -340,10 +340,6 @@ li {
 
 
 @media screen and (max-width: 450px) {
-    #about {
-        height: 100vh;
-    }
-
     .img-about {
         width: 70%;
     }
@@ -372,16 +368,16 @@ li {
  }
  
 
-/* projects */
+/* projets */
 
 #projects {
     height: auto;
-    /* border: #ff0000 solid; */
-
 }
 
-/* projets */
-
+.project-title {
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
 .projects-container {
     display: grid;
     max-width: 1150px;
@@ -394,7 +390,8 @@ li {
 }
 
 .project-box {
-    height: 40vh;
+    height: 30vh;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     transition: all .3s;
@@ -473,7 +470,7 @@ li {
 
 @media screen and (max-width: 430px) {
     .project-box {
-        height: 30vh;
+        height: 25vh;
         width: 100%;
     }
     
@@ -566,14 +563,11 @@ li {
 
 @media screen and (max-width: 400px) {
     .section-title {
-        font-size: 2.9em;
+        font-size: 2.5em;
     }
     h2 {
         margin-left: 0px;
         text-align: center;
-    }
-    #skills {
-        height: 100vh;
     }
     .skill-title {
         margin-bottom: 20px;
@@ -599,7 +593,10 @@ li {
 
 /* contact */
 #contact {
-    height: 100vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-container {
