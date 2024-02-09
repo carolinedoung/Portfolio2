@@ -27,6 +27,8 @@ body {
     font-family: "satoshi";
     list-style: none;
     text-decoration: none; 
+    background-image: url(./images/neonbis.svg);
+    background-position: 100%;
 }
 
 
@@ -40,7 +42,7 @@ body {
     width: 100%;
     background-color: rgba(120, 120, 120, 0);
     backdrop-filter: blur(10px);
-    background-color: blue;
+    /* background-color: blue; */
         
 }
 
@@ -145,6 +147,7 @@ h1 {
 }
 
 h2 {
+    font-size: 4em;
     color: white;
     font-family: "Orbitron";
     margin-left: 50px;
@@ -175,10 +178,10 @@ li {
     align-items: center;
     text-align: center;
     align-items: center;
-    background-image: url(./images/gradient.png);
-    background-size: cover;
+    background-image: url(./images/neonviolet.svg);
+    background-size: 50%;
     background-repeat: no-repeat;
-    /* background-position: 100%; */
+    background-position: 50%;
 
 }
 
