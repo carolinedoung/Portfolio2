@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Orbitron&family=Oswald:wght@700&family=Poppins&display=swap');
 
-@import url('./Fonts/css/satoshi.css');
+/* @import url('./Fonts/css/satoshi.css'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 *,
@@ -24,10 +24,11 @@ body {
     margin: 0; 
     padding: 0;
     background-color: rgb(12, 12, 12);
-    font-family: "satoshi";
+    font-family: "plus jakarta sans";
     list-style: none;
     text-decoration: none; 
     background-image: url(./images/neonbis.svg);
+    /* background-position: 80%; */
     background-position: center;
 }
 
@@ -62,7 +63,7 @@ body {
 .logo {
    font-weight: bold;
    font-size: 1em;
-   font-family: "satoshi";
+   font-family: "plus jakarta sans";
    margin: 0 25px;
 
 }
@@ -164,7 +165,7 @@ h2 {
 li {
     list-style-type: none;
     color: white;
-    font-family: "satoshi";
+    font-family: "plus jakarta sans";
 }
 
 .accueil-container {
