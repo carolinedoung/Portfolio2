@@ -714,15 +714,9 @@ span {
 
 .contact-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    grid-template-rows: repeat(2, auto);
     gap: 40px;
-}
-
-.contact-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 p.item {
@@ -748,6 +742,7 @@ a.link, #btn-cv {
         background-color: #2F2BDF;
     }
 }
+
 
 footer {
     font-family: "Antonio";
