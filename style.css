@@ -30,7 +30,7 @@ body {
     font-family: "plus jakarta sans";
     list-style: none;
     text-decoration: none; 
-    background-image: url(/images/neonbis.svg);
+    background-image: url(./images/neonbis.svg);
     /* background-position: 80%; */
     background-position: center;
 }
