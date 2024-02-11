@@ -30,7 +30,7 @@ body {
     font-family: "plus jakarta sans";
     list-style: none;
     text-decoration: none; 
-    background-image: url(./images/neon.svg);
+    background-image: url(./images/neonbis.svg);
     /* background-position: 80%; */
     background-position: center;
 }
@@ -818,7 +818,8 @@ a.link, #btn-cv {
     }
 
     .stage {
-        margin:auto;
+        margin: auto;
+        margin-top: 20px;
         padding: 10px;
     }
 
