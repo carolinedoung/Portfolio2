@@ -67,6 +67,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+.link-project {
+    margin-top: 20px;
+}
+
 .link-project a {
     margin-right: 20px;
     color: white;
