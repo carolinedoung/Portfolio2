@@ -61,6 +61,7 @@ body {
 
 .navbar .nav-links ul li {
     margin: 0 25px;
+    font-size: 1rem;
 }
 
 .logo {
@@ -82,6 +83,16 @@ body {
 }
 
 /* responsive navbar */
+
+@media screen and (min-width: 1800px) {
+    .navbar .nav-links ul li {
+        font-size: 2rem;
+    }
+
+    .logo {
+        font-size: 2em;
+    }
+}
 
 @media screen and (max-width: 900px) {
     .navbar {
@@ -200,7 +211,7 @@ li {
 
 .section-title {
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 20px;
     /* padding-top: 50px; */
 
@@ -212,7 +223,7 @@ li {
 
 #title-about {
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     /* margin-top: 20px;
     margin-bottom: 20px; */
     text-align: center;
@@ -258,9 +269,6 @@ span {
 
 .text p {
     color: white;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .img-container {
@@ -278,6 +286,7 @@ span {
 }
 
 .button-cv {
+    border: 1px solid #FFFFFF;
     background-color: #817FFF;
     color: white;
     padding: 10px 20px;
@@ -291,6 +300,34 @@ span {
 
 }
 /* responsive about + h1 */
+@media screen and (min-width: 1800px) {
+    #about {
+        height: 100vh;
+    }
+    .about-content {
+        gap: 8rem;
+        max-width: 1680px;
+    }
+    h1 {
+        font-size: 10em;
+    }
+    .title-accueil {
+        left: 0;
+    }
+    .img-about {
+        margin-top: 40px;
+        width: 55vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .text {
+        font-size: 1.8em;
+    }
+    .accueil-container {
+        margin: 0;
+    }
+}
 
 @media screen and (max-width: 1050px) {
     #about {
@@ -412,7 +449,7 @@ span {
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     transition: all .3s;
     &:hover {
-      box-shadow: 0px 10px 20px #2F2BDF;
+      box-shadow: 0px 10px 20px #817FFF;
     }
     cursor: pointer;
 }
@@ -421,7 +458,40 @@ span {
     display: none;
 }
 
+.project img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.project a{
+    color: white;
+}
+
 /* projects responsive */
+@media screen and (min-width: 1800px) {
+    #projects {
+        height: 100vh;
+    }
+
+    .project-title {
+        padding-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .projects-container {
+        max-width: 1700px;
+        column-gap: 4rem;
+        row-gap: 4em;
+        margin-bottom: 30px;
+    }
+
+    .project-box {
+        margin: auto;
+        height: 30vh;
+        width: 25vw;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     .project-title{
@@ -497,15 +567,6 @@ span {
     }
     
 }
-.project img {
-    width: 100%;
-    object-fit: cover;
-    
-}
-
-.project a{
-    color: white;
-}
 
 /* .project { */
         /* max-width: 100%; */
@@ -562,7 +623,37 @@ span {
     border: 4px solid #2F2BDF;
     border-radius: 10px;
 }
+@media screen and (min-width: 1800px) {
+    #skills {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+    #skill {
+        margin-top: 80px;
+    }
+    .skill-title {
+        font-size: 3em;
+    }
+
+    .list-skill {
+        font-size: 2.6em;
+    }
+
+    #skills-content {
+        max-width: 1500px;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    #skills-flex {
+        margin-top: 70px;
+    }
+
+    #line{
+        height: 500px;
+    }
+}
 @media screen and (max-width: 900px) {
     #skills {
         height: auto;
@@ -615,7 +706,7 @@ span {
 
 /* contact */
 #contact {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -623,8 +714,39 @@ span {
 
 .contact-container {
     display: grid;
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.item {
+    font-size: 1.5em;
+    color: white;
+    margin-left : 50px
+}
+
+a.link, #btn-cv {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    background-color: #817FFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 90px;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: all .1s;
+    &:hover {
+        background-color: #2F2BDF;
+    }
 }
 
 footer {
@@ -638,25 +760,5 @@ footer {
     color: white;
     text-align: center;
     font-size: 3em;
-}
-
-p.item {
-    font-size: 1.5em;
-    color: white;
-    margin-left : 50px
-}
-a.link {
-    background-color: #817FFF;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 90px;
-    text-decoration: none;
-    font-size: 1.5em;
-    transition: all .1s;
-    &:hover {
-        background-color: #2F2BDF;
-    }
-
-
 }
 
