@@ -10,11 +10,14 @@ html {
     /* margin-top: 50px; */
 }
 
-h1 {
+.projet-titre {
     /* top: 0; */
     font-size: 3.5em;
     text-align: center;
     margin-bottom: 5%;
+    color: rgb(230, 236, 240);
+    font-family: "Antonio";
+    padding: 0px;
     /* margin-top: 5%; */
 }
 

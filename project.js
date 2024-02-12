@@ -8,7 +8,7 @@ fetch('data.json')
         console.log(data)
         
         document.title = data["title"];
-        document.querySelector('.title-project').innerHTML += "<h1>" + data["title"] + "</h1>";
+        document.querySelector('.title-project').innerHTML += "<h1 class='projet-titre'>" + data["title"] + "</h1>";
         document.querySelector('.content-project .img-project').innerHTML += "<img class='img-shadow'src='" + data["image"] + "' alt='[alt]'></img>"
         document.querySelector('.content-project .text-project').innerHTML += "<p>" + data["description"] + "</p>" + "<p class='date'>" + data["year"] + "</p>" 
         const linkPage = data["links"]["page"];
