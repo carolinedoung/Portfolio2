@@ -133,7 +133,11 @@ h3.mb {
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
+    .projet-titre {
+        font-size: 2em;
+    }
+
     .content-project {
         display: flex;
         flex-direction: column;
@@ -150,7 +154,8 @@ h3.mb {
         flex-direction: column;
         align-items: start;
         gap: 2rem;
-
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .gallery {
@@ -165,11 +170,21 @@ h3.mb {
         flex-wrap: wrap;
     }
 
-    .projet-titre {
-        font-size: 2em;
+    .img-gallery {
+        width: 60vw;
+    }
+
+    .img-shadow {
+        width: 60vw;
     }
 }
-    @media screen and (max-width: 750px) {
+
+@media screen and (min-width: 600px){
+    .projet-titre {
+        font-size: 2.4em;
+        padding: 0px;
+    }
+
     .content-project {
         display: flex;
         flex-direction: column;
@@ -179,14 +194,72 @@ h3.mb {
         margin-right: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
+        column-gap: 3em;
+        max-width: 600px;
+        font-size: 1em;
     }
 
     .container2 {
         display: flex;
         flex-direction: column;
         align-items: start;
-        gap: 2rem;
+        column-gap: 3em;
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+    }
+
+    .container-tools {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .img-gallery {
+        width: 40vw;
+    }  
+
+    .img-shadow {
+        width: 50vw;
+    }
+    
+}
+@media screen and (min-width: 750px) {
+    .projet-titre {
+        font-size: 2.5em;
+        padding: 0px;
+    }
+
+    .content-project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        column-gap: 3em;
+        max-width: 700px;
+        font-size: 1.1em;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        column-gap: 3em;
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 50px;
     }
 
     .gallery {
@@ -201,12 +274,12 @@ h3.mb {
         flex-wrap: wrap;
     }
     
-    .img-shadow {
-        width: 100%;
+    .img-gallery {
+        width: 60vw;
     }
 
-    .projet-titre {
-        font-size: 2em;
+    .img-shadow {
+        width: 60vw;
     }
 
 }
@@ -239,6 +312,8 @@ h3.mb {
         max-width: 850px;
         margin: auto;
         margin-bottom: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     h3.title-tool {
@@ -273,10 +348,10 @@ h3.mb {
 
     .img-gallery {
         width: 50vw;
-}
-    .container2 {
-        margin-left: 25px;
-        margin-right: 25px;
+    }
+
+    .img-shadow {
+        width: 50vw;
     }
 }
 
@@ -351,23 +426,37 @@ h3.mb {
 }
 
 @media screen and (min-width: 1200px) {
+    .link-home {
+        font-size: 1.1em;
+    }
+
+    #container {
+        margin: auto;
+    }
+
     .projet-titre {
         font-size: 3.3em;
         padding: 0px;
     }
 
     .content-project {
-        column-gap: 3em;
+        display: flex;
+        flex-direction: row;
+        row-gap: 3em;
         max-width: 1200px;
         font-size: 1.2em;
+        margin-bottom: 50px;
     }
 
     .container2 {
         display: flex;
-        column-gap: 3em;
+        flex-direction: row;
+        row-gap: 3em;
         max-width: 1200px;
         margin: auto;
         margin-bottom: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     h3.title-tool {
@@ -390,27 +479,47 @@ h3.mb {
         text-align: center;
     }
 
-    .container2 {
-        margin-left: 25px;
-        margin-right: 25px;
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1em;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
 @media screen and (min-width: 1400px) {
+    .link-home {
+        font-size: 1.2em;
+    }
+
+    #container {
+        top: 80px;
+        margin: auto;
+    }
+
     .projet-titre {
         font-size: 3.4em;
         padding: 0px;
     }
 
     .content-project {
-        column-gap: 3em;
+        display: flex;
+        flex-direction: row;
+        row-gap: 3em;
         max-width: 1350px;
         font-size: 1.3em;
+        margin-bottom: 50px;
     }
 
     .container2 {
         display: flex;
-        column-gap: 3em;
+        flex-direction: row;
+        row-gap: 3em;
         max-width: 1400px;
         margin: auto;
         margin-bottom: 50px;
@@ -440,22 +549,48 @@ h3.mb {
         margin-left: 25px;
         margin-right: 25px;
     }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 4em;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media screen and (min-width: 1500px) {
+    .link-home {
+        font-size: 1.3em;
+    }
+
+    #container {
+        top: 90px;
+        margin: auto;
+    }
+
     .projet-titre {
         font-size: 3.5em;
         padding: 0px;
     }
 
     .content-project {
-        column-gap: 3em;
+        display: flex;
+        flex-direction: row;
+        row-gap: 3em;
         max-width: 1400px;
-        font-size: 1.5em;
+        font-size: 1.4em;
+        margin: auto;
+        margin-bottom: 50px;
     }
 
     .container2 {
         display: flex;
+        flex-direction: row;
         column-gap: 4em;
         max-width: 1400px;
         margin: auto;
@@ -480,24 +615,52 @@ h3.mb {
         width: 200px;
         max-width: 200px;
         text-align: center;
+    }
+
+    .container-tools {
+        row-gap: 20px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 4em;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
 @media screen and (min-width: 1696px) {
+    .link-home {
+        font-size: 1.4em;
+    }
+
+    #container {
+        top: 90px;
+        margin: auto;
+    }
     .projet-titre {
         font-size: 4em;
         padding: 0px;
     }
 
     .content-project {
-        column-gap: 3em;
+        display: flex;
+        flex-direction: row;
+        row-gap: 3em;
         max-width: 1600px;
         font-size: 1.5em;
+        margin-bottom: 50px;
     }
 
     .container2 {
         display: flex;
-        column-gap: 4em;
+        flex-direction: row;
+        row-gap: 4em;
         max-width: 1600px;
         margin: auto;
         margin-bottom: 50px;
@@ -522,15 +685,38 @@ h3.mb {
         max-width: 200px;
         text-align: center;
     }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 4em;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media screen and (min-width: 1800px) {
+    .link-home {
+        font-size: 1.9em;
+    }
+
+    #container {
+        top: 90px;
+        margin: auto;
+    }
+
     .projet-titre {
         font-size: 4em;
         padding: 0px;
     }
 
     .content-project {
+        display: flex;
+        flex-direction: row;
         column-gap: 4em;
         max-width: 1750px;
         margin: auto;
@@ -540,12 +726,13 @@ h3.mb {
 
     .container2 {
         display: flex;
-        column-gap: 4em;
+        flex-direction: row;
+        row-gap: 4em;
         max-width: 1750px;
         margin: auto;
         margin-bottom: 50px;
     }
-
+    
     h3.title-tool {
         font-size: 2em;
     }
@@ -564,6 +751,18 @@ h3.mb {
         width: 200px;
         max-width: 200px;
         text-align: center;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 4em;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
