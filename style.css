@@ -384,7 +384,7 @@ h2 {
 @media screen and (min-width: 1200px) {
     #accueil {
         font-size: 11em;
-        padding-top: 70px;
+        padding-top: 30px;
     }
 
     .titre-nom {
